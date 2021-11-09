@@ -2,7 +2,7 @@ name: 'userfetch Action'
 description: 'GitHub Actions for userfetch'
 author: 'aryan02420'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
 branding:
   icon: 'terminal'
