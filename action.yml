@@ -3,14 +3,11 @@ description: 'GitHub Actions for userfetch'
 author: 'aryan02420'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
 branding:
   icon: 'terminal'
   color: 'yellow'
 inputs:
-  token:
-    description: 'GitHub Personal Access Token'
-    required: true
   config:
     description: 'Path to config file'
     required: true
