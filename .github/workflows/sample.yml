@@ -1,0 +1,15 @@
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  sample_job:
+    env:
+      github_token: ${{ secrets.GH_PAT }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./
+        with:
+          config: ''
+          svg: ''
