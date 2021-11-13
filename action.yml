@@ -2,8 +2,11 @@ name: 'userfetch Action'
 description: 'GitHub Actions for userfetch'
 author: 'aryan02420'
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.config }}
+    - ${{ inputs.svg }}
 branding:
   icon: 'terminal'
   color: 'yellow'
