@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ./
         with:
-          config: ''
-          svg: ''
+          config: '/github/workflow/config.mjs'
+          svg: '/github/workflow/card.svg'
