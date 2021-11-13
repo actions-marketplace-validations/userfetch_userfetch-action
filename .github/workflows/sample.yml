@@ -14,3 +14,8 @@ jobs:
         with:
           config: '/github/workspace/config.mjs'
           svg: '/github/workspace/card.svg'
+      - run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "Automated commit"
+          git push
