@@ -10,8 +10,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ./
         with:
-          config: '/github/workspace/config.mjs'
-          svg: '/github/workspace/card.svg'
+          config: 'config.mjs'
+          svg: 'card.svg'
         env:
           github_token: ${{ secrets.GH_PAT }}
       - run: |
