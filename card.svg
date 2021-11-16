@@ -1,0 +1,96 @@
+
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <foreignObject x="0" y="0" id="window">
+      <style>
+  .ansi-black-fg {
+    color: #232627;
+  }
+  .ansi-red-fg {
+    color: #ef4444;
+  }
+  .ansi-green-fg {
+    color: #22c55e;
+  }
+  .ansi-yellow-fg {
+    color: #eab308;
+  }
+  .ansi-blue-fg {
+    color: #3b82f6;
+  }
+  .ansi-magenta-fg {
+    color: #d946ef;
+  }
+  .ansi-cyan-fg {
+    color: #06b6d4;
+  }
+  .ansi-white-fg {
+    color: #f5f5f5;
+  }
+  .ansi-bright-black-fg {
+    color: #7f8c8d;
+  }
+  .ansi-bright-red-fg {
+    color: #f87171;
+  }
+  .ansi-bright-green-fg {
+    color: #4ade80;
+  }
+  .ansi-bright-yellow-fg {
+    color: #fde047;
+  }
+  .ansi-bright-blue-fg {
+    color: #60a5fa;
+  }
+  .ansi-bright-magenta-fg {
+    color: #e879f9;
+  }
+  .ansi-bright-cyan-fg {
+    color: #22d3ee;
+  }
+  .ansi-bright-white-fg {
+    color: #ffffff;
+  }
+  .ansi-bold {
+    font-weight: bold;
+  }
+  #window {
+    width: calc(80ch + 40px);
+    height: calc(315.52px + 30px - 6.119999999999999px);
+  }
+  #terminal {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: #18181b;
+    color: #fcfcfc;
+    font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+    font-size: 13.6px;
+    line-height: 19.72px;
+    text-size-adjust: 100%;
+    white-space: pre;
+    -webkit-locale: 'en';
+  }
+  </style>
+      <pre xmlns="http://www.w3.org/1999/xhtml" id="terminal">​        _.^``````````^._           aryan02420  
+​      /`                `\         ----------  
+​    /`                    `\       ​           
+​  /`   /``.          .``\   `\     repos: 33   
+​ :     \   ':'````':'   /     :    followers: 5
+​!      /                \      !               
+​|     ^                  ^     |               
+​|    |                    |    |               
+​|    (                    )    |               
+​!     \                  /     !               
+​ ;    _`- _          _ -`     ;                
+​  :  (_`\  :        :        :                 
+​   \   \ '-'        !       /                  
+​    `.  `--.        |     .`                   
+​      `*._.'        '._.*`
+</pre>
+    </foreignObject>
+  </svg>
+  
