@@ -1,6 +1,6 @@
 export function template({ left, right, top, bottom, ascii, title, underline, info, list, text, blank, raw }, data) {
   left()
-  ascii(__dirname, './ascii')
+  ascii(import.meta.url, './ascii')
   right()
   title(data.username)
   underline()
@@ -12,7 +12,7 @@ export function template({ left, right, top, bottom, ascii, title, underline, in
 
 export function templateDefault(t, data) {
   t.left()
-    .ascii(__dirname, './ascii')
+    .ascii(import.meta.url, './ascii')
     .right()
     .title(data.username)
     .underline()
