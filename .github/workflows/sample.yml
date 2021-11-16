@@ -5,8 +5,6 @@ on:
 
 jobs:
   sample_job:
-    env:
-      github_token: ${{ secrets.GH_PAT }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,6 +12,8 @@ jobs:
         with:
           config: '/github/workspace/config.mjs'
           svg: '/github/workspace/card.svg'
+        env:
+          github_token: ${{ secrets.GH_PAT }}
       - run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
