@@ -1,13 +1,19 @@
 export function template({ left, right, top, bottom, ascii, title, underline, info, list, text, blank, raw }, data) {
   left()
+  blank()
   ascii(import.meta.url, './ascii')
+  blank()
   right()
   title(data.username)
   underline()
   if (data.bio) text(data.bio)
   blank()
-  info('repos', data.repositories)
-  info('followers', data.followers)
+  info('Repos', data.repositories)
+  info('Followers', data.followers)
+  info('Orgs', data.organizations)
+  info('Stars', data.stars)
+  blank()
+  list('Languages', ['TypeScript', 'Python'])
 }
 
 export function templateDefault(t, data) {
@@ -30,7 +36,7 @@ export const symbols = {
 }
 
 export const colors = {
-  primary: 'blueBright',
+  primary: 'greenBright',
   secondary: 'white',
   tertiary: 'gray',
   alternate: 'whiteBright',
@@ -39,7 +45,7 @@ export const colors = {
 export const meta = {
   paddingLeft: 0,
   paddingTop: 0,
-  paddingBottom: 1,
+  paddingBottom: 0,
   maxWidth: 40,
 }
 
@@ -64,9 +70,9 @@ export const svgOptions = {
     cyanBright: '#22d3ee',
     whiteBright: '#ffffff',
   },
-  rows: 16,
-  cols: 80,
+  rows: 11,
+  cols: 38,
   paddingX: 20,
   paddingY: 15,
-  radius: 6,
+  radius: 12,
 }
