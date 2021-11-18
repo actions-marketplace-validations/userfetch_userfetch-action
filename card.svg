@@ -54,8 +54,8 @@
     font-weight: bold;
   }
   #window {
-    width: calc(80ch + 40px);
-    height: calc(315.52px + 30px - 6.119999999999999px);
+    width: calc(38ch + 40px);
+    height: calc(216.92px + 30px - 6.119999999999999px);
   }
   #terminal {
     box-sizing: border-box;
@@ -64,7 +64,7 @@
     display: inline-block;
     margin: 0;
     padding: 15px 20px;
-    border-radius: 6px;
+    border-radius: 12px;
     background-color: #18181b;
     color: #fcfcfc;
     font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
@@ -75,22 +75,17 @@
     -webkit-locale: 'en';
   }
   </style>
-      <pre xmlns="http://www.w3.org/1999/xhtml" id="terminal">​        _.^``````````^._           aryan02420  
-​      /`                `\         ----------  
-​    /`                    `\       ​           
-​  /`   /``.          .``\   `\     repos: 33   
-​ :     \   ':'````':'   /     :    followers: 5
-​!      /                \      !               
-​|     ^                  ^     |               
-​|    |                    |    |               
-​|    (                    )    |               
-​!     \                  /     !               
-​ ;    _`- _          _ -`     ;                
-​  :  (_`\  :        :        :                 
-​   \   \ '-'        !       /                  
-​    `.  `--.        |     .`                   
-​      `*._.'        '._.*`
-</pre>
+      <pre xmlns="http://www.w3.org/1999/xhtml" id="terminal">​                     aryan02420     
+​          _----.     ----------     
+​        ／ >    \>   ​              
+​        (   o  o)    Repos: 33      
+​   .    /`-___x-     Followers: 5   
+​ / /   /       |     Orgs: 3        
+​( (   /  \     /     Stars: 13      
+​ \ \_/    | | |      ​              
+​  \__;  )_| | |      Languages:     
+​     \____)__)_)     ​  - TypeScript
+​                     ​  - Python</pre>
     </foreignObject>
   </svg>
   
