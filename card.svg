@@ -1,7 +1,6 @@
-
-  <svg xmlns="http://www.w3.org/2000/svg">
-    <foreignObject x="0" y="0" id="window">
-      <style>
+<svg xmlns="http://www.w3.org/2000/svg" cviewBox="0 0 298.4 240.79999999999998">
+  <foreignObject x="0" y="0" id="window">
+    <style>
   .ansi-black-fg {
     color: #232627;
   }
@@ -54,8 +53,22 @@
     font-weight: bold;
   }
   #window {
-    width: calc(38ch + 40px);
-    height: calc(216.92px + 30px - 6.119999999999999px);
+    --font-size: 13.6px;
+    --line-height: 19.72px;
+    --term-rows: 11;
+    --term-cols: 38;
+    --term-px: 20;
+    --term-py: 15;
+    --term-rad: 12;
+    --color-bg: #18181b;
+    --color-fg: #fcfcfc;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    font-family: monospace;
+    text-size-adjust: 100%;
+    color: var(--color-fg);
+    width: calc((var(--term-cols) * 0.5em) + (var(--term-px) * 2px));
+    height: calc((var(--term-rows) * var(--line-height)) + (var(--term-py) * 2px) - (var(--line-height) - var(--font-size)));
   }
   #terminal {
     box-sizing: border-box;
@@ -63,19 +76,14 @@
     height: 100%;
     display: inline-block;
     margin: 0;
-    padding: 15px 20px;
-    border-radius: 12px;
-    background-color: #18181b;
-    color: #fcfcfc;
-    font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
-    font-size: 13.6px;
-    line-height: 19.72px;
-    text-size-adjust: 100%;
+    padding: calc(var(--term-py) * 1px) calc(var(--term-px) * 1px);
+    border-radius: calc(var(--term-rad) * 1px);
+    background-color: var(--color-bg);
     white-space: pre;
     -webkit-locale: 'en';
   }
   </style>
-      <pre xmlns="http://www.w3.org/1999/xhtml" id="terminal">​                     aryan02420     
+    <pre xmlns="http://www.w3.org/1999/xhtml" id="terminal">​                     aryan02420     
 ​          _----.     ----------     
 ​        ／ >    \>   ​              
 ​        (   o  o)    Repos: 36      
@@ -86,6 +94,5 @@
 ​  \__;  )_| | |      Languages:     
 ​     \____)__)_)     ​  - TypeScript
 ​                     ​  - Python</pre>
-    </foreignObject>
-  </svg>
-  
+  </foreignObject>
+</svg>
