@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" cviewBox="0 0 298.4 240.79999999999998">
+<svg xmlns="http://www.w3.org/2000/svg" cviewBox="0 0 380 260.52">
   <foreignObject x="0" y="0" id="window">
     <style>
   .ansi-black-fg {
@@ -55,8 +55,8 @@
   #window {
     --font-size: 13.6px;
     --line-height: 19.72px;
-    --term-rows: 11;
-    --term-cols: 38;
+    --term-rows: 12;
+    --term-cols: 50;
     --term-px: 20;
     --term-py: 15;
     --term-rad: 12;
